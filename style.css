@@ -1,0 +1,65 @@
+body {
+  background-color: #F6F3D8;
+  position: relative;
+}
+body header {
+  background-color: #FFFEF6;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  margin-top: 5%;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+}
+body header nav {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+}
+body header nav ul li {
+  list-style: none;
+}
+body header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+body header nav button {
+  padding: 1px 40px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+body .section1 {
+  background-color: #FFFEF6;
+  padding-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  background-image: url(./assets/right.png);
+  background-repeat: no-repeat;
+}
+body .section1 .txt {
+  margin-left: 10%;
+}
+body .section1 .txt h3 {
+  font-size: 30px;
+}
+body .section1 .txt h2 {
+  font-size: 80px;
+}
+body .section1 .txt a:hover {
+  cursor: url(./assets/HandUp.png), auto;
+  color: green;
+}
+body .image {
+  position: absolute;
+  top: 82%;
+  right: 77%;
+}/*# sourceMappingURL=style.css.map */
